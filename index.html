@@ -1,0 +1,110 @@
+<!--Dylan's Profile index page!-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--Standard head setup...-->
+    <head>
+        <meta charset = "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dylan's Online Portfolio</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Digital Dyl!</h1>
+            <nav>
+                
+                <a href="#intro">Intro</a>
+                <a href="#about-dyl">About Me</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                
+            </nav>
+        </header>
+        <main>
+            <article class = "group" id="intro">   
+                <div class="item">        
+                    <h2>My name is Dylan Williams</h2>
+                    <!--Final draft of profile will likely include a more professional pic!-->
+                    <img src="images/IMG_5852.jpeg" alt="An image of Dylan flying an airplane!">
+                </div>   
+                <div class="item-double">
+                    <p>I am a musician and aspiring web developer located in Nashville, Tennessee.  I want to develop web based content with seamless 
+                        interfacing and concrete function.  I am excited to join this growing community of developers!  And if it requires any music, 
+                        I can handle that!
+                    </p>            
+                </div>     
+            </article>
+            <hr>
+            <article class= "group" id="about-dyl">
+                <div class="item">   
+                    <h3>About Dylan</h3>
+                        <p>
+                            As the world gets more and more connected, I want to take part in the network!  I've been learning new skills to foster connections
+                            both in my career and personally, with the same basic philosophy of openness and connectivity.  As a full stack developer I can 
+                            help a wide variety of businesses reach their clients worldwide.
+                        </p>          
+                        <p>
+                            When not working, I enjoy quality time with my fiance' and dog, our friends, and make sure to sweat it out in the gym.  I continue working
+                            as a freelance musician, and am also a budding pilot!
+                        </p>
+                </div>
+            </article>
+            <hr>
+            <section class = "group" id="portfolio">
+                <h3>Dylan's Projects</h3>
+                    <h4>Railroad Finder</h4>
+                        <ul>
+                            <li>This app charts railroad routes from the 1800's</li>
+                            <li>Shows history buffs how trade and travel was organized</li>
+                            <li>Link to app: <a href="http://www.railroadsbydyl.com">Railroad Finder</a></li>
+                            <li>Link to repo: <a href="http://github.com/dylanConrad/railroad">Railroad Git</a></li>
+                        </ul>
+                    <h4>Dog Translator</h4>
+                        <ul>
+                            <li>This app utilizes your phone's voice assistant to translate dog barks to english</li>
+                            <li>Allows pet owners to talk to their dog</li>
+                            <li>Link to app: <a href="http://www.talktoyourdog.com">Dog Translator</a></li>
+                            <li>Link to repo: <a href="http://github.com/dylanConrad/dogtranslator">Doggie Git</a></li>
+                        </ul>
+            </section>
+            <hr>
+            <section id="contact" class="group">
+                <h5>Let's connect!</h5>
+                <ol>
+                    <li>
+                        <a href="https://github.com/dylanConrad">Dyl's Github</a>
+                    </li>
+                    <li>
+                       <a href="https://www.linkedin.com/in/dylan-williams-b04478206/">Dyl's LinkedIn</a>
+                    </li>
+                    <li>
+                        Email: dylanconrad82@gmail.com
+                    </li>
+                    <li>
+                        phone: 317-319-6163
+                    </li>
+                </ol>
+                <form class ="form" action="https://formspree.io/f/xyylgdaj" method="post">
+                    <label for="user-name">Name:</label>
+                    <input id="user-name" type="text" name="name">
+                    <label for="email">Email:</label>
+                    <input id="email" type="text" name="email">      
+                    <label for="message">Your message:</label>
+                    <textarea
+                    id="textarea"
+                    name="msg"
+                    row="20">
+                    </textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <section>
+                <!--I want to update this to the copyright symbol-->
+                <h5>copyright Dylan Williams</h5>
+            </section>
+        </footer>
+    </body>
+</html>

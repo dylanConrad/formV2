@@ -1,0 +1,104 @@
+/*Welcome to Dylan's profile CSS page*/
+
+/*Some basic styling for the whole page*/
+body {
+    background-color: beige;
+    margin-left: auto;
+    margin-right: auto;
+    
+    font-family: arial;
+    color: rgb(53, 48, 42);
+}
+
+header, footer {
+    
+    width: 100%;
+    color: beige;
+    text-align: center;
+    background-color: rgb(66, 73, 28);
+    margin: 15px;
+    padding: 0px, 20px;
+}
+
+h3 {
+    width: 100%;
+    background-color:  rgb(66, 73, 28);
+    padding: 10px, 10px;
+    margin-right: 10px;
+}
+
+nav {
+    flex-direction: row;
+    margin-bottom: 10px;
+    justify-content: center;
+    
+}
+
+footer {
+    font-size: 15px;
+}
+
+
+
+img {
+
+    height: 200px;
+    width: 175px;
+    padding: 10px 10px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10px;
+    margin: 0px 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgb(53, 48, 42);
+    color: beige;
+
+}
+
+.item {
+    flex: 1;
+}
+
+.item-double {
+    flex: 2;
+}
+
+.form {
+    flex-direction: column;
+}
+/* wanted to space out my links! */
+header a {
+    margin-left: 10px;
+}
+
+a:link {
+    color: bisque;
+}
+
+a:visited {
+    color: rgb(199, 161, 116);
+}
+
+
+.contact > h5 {
+    font-style: italic;
+}
+
+@media all and (min-width: 800px) {
+    .group {
+        display: flex;
+       
+        flex-direction: row;
+        align-items: center;
+    }
+    .item {
+       width: 50%;
+    }
+
+} 
+
