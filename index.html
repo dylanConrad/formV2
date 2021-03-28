@@ -8,6 +8,7 @@
         <title>Dylan's Online Portfolio</title>
         <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
         <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
@@ -60,18 +61,20 @@
                 <h3>Dylan's Projects</h3>
                     <div class="item">
                     <h4>Railroad Finder</h4>
-                        <img src="/images/train.jpeg">
+                        <img src="images/train.jpeg" alt="image of a train station">
                         <ul>
                             <li>This app charts railroad routes from the 1800's</li>
                             <li>Shows history buffs how trade and travel was organized</li>
+                            <li>Utilizes HTML, CSS, and JavaScript</li>
                             <li>Link to app: <a href="http://www.railroadsbydyl.com">Railroad Finder</a></li>
                             <li>Link to repo: <a href="http://github.com/dylanConrad/railroad">Railroad Git</a></li>
                         </ul>
                     <h4>Dog Translator</h4>
-                        <img src="/images/sleepy-fred.jpeg">
+                        <img src="images/sleepy-fred.jpeg" alt="image of a sleeping dog">
                         <ul>
                             <li>This app utilizes your phone's voice assistant to translate dog barks to english</li>
                             <li>Allows pet owners to talk to their dog</li>
+                            <li>Utilizes HTML, CSS, and JavaScript</li>
                             <li>Link to app: <a href="http://www.talktoyourdog.com">Dog Translator</a></li>
                             <li>Link to repo: <a href="http://github.com/dylanConrad/dogtranslator">Doggie Git</a></li>
                         </ul>
@@ -97,21 +100,21 @@
                         </li>
                     </ol>
                 </div> 
-                <div class="item">
+                <address class="item">
                     <form class ="form" action="https://formspree.io/f/xyylgdaj" method="post">
                         <label for="user-name">Name:</label>
                         <input id="user-name" type="text" name="name">
                         <label for="email">Email:</label>
                         <input id="email" type="text" name="email">      
-                        <label for="message">Your message:</label>
+                        <label for="textarea">Your message:</label>
                         <textarea
                         id="textarea"
                         name="msg"
-                        row="40">
+                        >
                         </textarea>
                         <button type="submit">Submit</button>
                     </form>
-                </div>
+                </address>
             </section>
         </main>
         <footer>
