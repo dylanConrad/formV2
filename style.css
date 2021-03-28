@@ -5,23 +5,25 @@ body {
     background-color: beige;
     margin-left: auto;
     margin-right: auto;
-    
     font-family: arial;
     color: rgb(53, 48, 42);
 }
 
 header, footer {
     
-    width: 100%;
+   
     color: beige;
     text-align: center;
     background-color: rgb(66, 73, 28);
     margin: 15px;
     padding: 0px, 20px;
 }
-
+h2 {
+    background-color: rgb(66, 73, 28);
+    font-weight: bolder;
+}
 h3 {
-    width: 100%;
+    width: 50%;
     background-color:  rgb(66, 73, 28);
     padding: 10px, 10px;
     margin-right: 10px;
@@ -38,10 +40,7 @@ footer {
     font-size: 15px;
 }
 
-
-
 img {
-
     height: 200px;
     width: 175px;
     padding: 10px 10px;
@@ -52,25 +51,35 @@ img {
     flex-direction: column;
     width: 100%;
     padding-left: 10px;
-    margin: 0px 10px;
-    justify-content: space-evenly;
-    align-items: center;
+    margin: 10px 10px;
     background-color:rgb(53, 48, 42);
     color: beige;
-
 }
 
 .item {
     flex: 1;
+    margin-right: 10px;
 }
 
 .item-double {
     flex: 2;
 }
 
-.form {
-    flex-direction: column;
+.form label {
+    width: 100%;
+    display: block;
 }
+
+.form textarea {
+    height: 75px;
+}
+
+.form button {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
 /* wanted to space out my links! */
 header a {
     margin-left: 10px;
@@ -91,13 +100,11 @@ a:visited {
 
 @media all and (min-width: 800px) {
     .group {
-        display: flex;
-       
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
     }
     .item {
-       width: 50%;
+       
     }
 
 } 
